@@ -1,12 +1,16 @@
 .offer {
     display: flex;
     flex-direction: row;
-    margin-top: 2*$gutter;
+    flex-wrap: wrap;
+    margin-top: $gutter;
     margin-bottom: 2*$gutter;
 
     & > .col {
         flex: 1;
-        padding-right: $gutter;
+        margin-top: $gutter; // compensate for 1*$gutter above
+        padding-left: $gutter/2;
+        padding-right: $gutter/2;
+        min-width: 240px;
 
         h2 {
             margin-top: $gutter/4;
