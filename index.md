@@ -39,7 +39,7 @@ layout: default
     <div class="divider"></div>
 </div>
 
-{% assign speakers = (site.speakers | sort: 'date') | reverse %}
+{% assign speakers = site.speakers | sort: 'date' | reverse %}
 <div class="container">
     <div class="weekly-brew">
         <div class="up-next">
