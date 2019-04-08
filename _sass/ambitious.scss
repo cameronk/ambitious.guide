@@ -12,7 +12,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Merriweather", serif !important;
     font-weight: 400;
-    text-align: left;
+    // text-align: left;
+    // text-align: left;
 }
 h1 {
     font-size: 64px;
@@ -21,6 +22,14 @@ h1 {
 h2 {
     font-size: 34px;
     line-height: 50px;
+}
+
+a {
+    color: #39229d;
+    text-decoration: none;
+}
+a:visited {
+    color: #39229d;
 }
 
 .light {
@@ -47,8 +56,32 @@ h2 {
     text-transform: uppercase;
 }
 
+// .pull-up {
+//     background: #fff;
+//     margin-top: -20px;
+//     border-top-left-radius: 20px;
+//     border-top-right-radius: 20px;
+// }
+//
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: linear-gradient(120deg, #04066c, #a052fb);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    div {
+        text-align: center;
+        color: #f3f3f3;
+    }
+}
+
 /* index */
 @import "header";
 @import "motto";
 @import "offer";
 @import "brew";
+@import "contact";

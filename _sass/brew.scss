@@ -20,6 +20,7 @@
             flex: 2;
             width: 66.6666%;
             padding-left: $gutter/2;
+
             h2 {
                 margin-top: $gutter/4;
                 margin-bottom: $gutter/4
@@ -48,6 +49,9 @@
                     display: block;
                     width: 100%;
                     margin-bottom: 5px;
+                }
+                div {
+                    opacity: 0.8;
                 }
             }
         }

@@ -7,6 +7,8 @@ layout: default
     <h4 class="subheading">Community and resources for young people in tech and science.</h4>
 </div>
 
+<!-- <div class="pull-up"> -->
+<!-- Header -->
 <div class="container">
     <div class="motto-wrap">
         <h2>We're a community of engineers, researchers, makers, and doers interested in science and tech.</h2>
@@ -14,6 +16,7 @@ layout: default
     </div>
 </div>
 
+<!-- Offer -->
 <div class="container">
     <div class="divider"></div>
     <div class="offer">
@@ -36,6 +39,7 @@ layout: default
     <div class="divider"></div>
 </div>
 
+<!-- Weekly Brew -->
 {% assign speakers = site.speakers | sort: 'date' | reverse %}
 <div class="container">
     <div class="weekly-brew">
@@ -64,7 +68,7 @@ layout: default
                             {% else %}
                                 <img src="{{ speaker.image | prepend: site.url }}" />
                             {% endif %}
-                            {{ speaker.name }}
+                            <div>{{ speaker.name }}</div>
                         </div>
                     {% endif %}
                 {% endfor %}
@@ -72,4 +76,13 @@ layout: default
         </div>
     </div>
     <div class="divider"></div>
+</div>
+<!-- </div> -->
+
+<!-- Contact -->
+<div class="container">
+    <div class="contact">
+        <h2>Get in touch.</h2>
+        <h3><a href="javascript:void(0);" class="light">hello@ambitious.guide</a>, or via <a href="https://twitter.com/ambguide" target="_blank" class="light">Twitter</a>.</h3>
+    </div>
 </div>
