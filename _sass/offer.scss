@@ -1,0 +1,16 @@
+.offer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2*$gutter;
+    margin-bottom: 2*$gutter;
+
+    & > .col {
+        flex: 1;
+        padding-right: $gutter;
+
+        h2 {
+            margin-top: $gutter/4;
+            margin-bottom: 0;
+        }
+    }
+}

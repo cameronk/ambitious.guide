@@ -26,9 +26,17 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
+sass:
+  sass_dir: _sass
+
+future: true # needed so jekyll doesn't excluse old posts
+collections_dir: collections
+collections:
+    speakers:
+        output: true
+        permalink: /speaker/:name
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
