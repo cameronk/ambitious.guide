@@ -11,7 +11,7 @@ layout: default
 <!-- Header -->
 <div class="container">
     <div class="motto-wrap">
-        <h2>We're a community of engineers, researchers, makers, and doers interested in science and tech.</h2>
+        <h2>We're a community of engineers, researchers, and builders interested in science and tech.</h2>
         <p>Ambitious is creating a space for exceptional young people to collaborate on projects, have conversations, make friends, and <em>build a competitive advantage</em>. We believe investing in these people early will have compounding returns over the long run, pushing science and technology forward.</p>
     </div>
 </div>
