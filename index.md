@@ -4,7 +4,7 @@ layout: default
 
 <div class="intro-header">
     <h1 class="heading-jumbo">Ambitious</h1>
-    <h4 class="subheading">Community and resources for young people in tech and science.</h4>
+    <h4 class="subheading">Community and resources for young people in science and tech.</h4>
 </div>
 
 <!-- <div class="pull-up"> -->
