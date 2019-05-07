@@ -28,6 +28,7 @@
             min-width: 50%;
 
             h2 {
+                // speaker name
                 margin-top: $gutter/4;
                 margin-bottom: $gutter/4
             }
@@ -51,19 +52,26 @@
             flex-wrap: wrap;
 
             .item {
-                max-width: 110px;
+
                 margin-right: $gutter/2;
                 text-align: center;
                 margin-bottom: 8px;
 
                 img {
                     display: block;
-                    width: 100%;
+                    width: 110px;
+                    height: 110px;
                     margin-bottom: 5px;
                 }
                 div {
                     opacity: 0.8;
                 }
+            }
+
+            //
+            .speaker-name {
+                margin-top: 10px;
+                line-height: 23px;
             }
         }
 

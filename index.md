@@ -53,7 +53,7 @@ layout: default
             </div>
             <div class="col-8">
                 <div class="label">UP NEXT</div>
-                <h2>{{ speakers.first.name }}</h2>
+                <h2 class="speaker-name">{{ speakers.first.name }}</h2>
                 <div class="light">{{ speakers.first }}</div>
             </div>
         </div>
@@ -68,7 +68,7 @@ layout: default
                             {% else %}
                                 <img src="{{ speaker.image | prepend: site.url }}" />
                             {% endif %}
-                            <div>{{ speaker.name }}</div>
+                            <div class="speaker-name">{{ speaker.name }}</div>
                         </div>
                     {% endif %}
                 {% endfor %}
