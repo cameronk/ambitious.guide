@@ -59,8 +59,10 @@
 
                 img {
                     display: block;
-                    width: 110px;
-                    height: 110px;
+                    width: 150px;
+                    height: 150px;
+                    // width: 110px;
+                    // height: 110px;
                     margin-bottom: 5px;
                 }
                 div {
@@ -72,6 +74,7 @@
             .speaker-name {
                 margin-top: 10px;
                 line-height: 23px;
+                margin-bottom: 20px;
             }
         }
 
