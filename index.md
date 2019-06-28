@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<header>
+    <a href="/join" class="join-button" target="_blank">Join us</a>
+</header>
+
 <div class="intro-header">
     <h1 class="heading-jumbo">Ambitious</h1>
     <h4 class="subheading">Community and resources for young people in science and tech.</h4>
@@ -82,7 +86,8 @@ layout: default
 <!-- Contact -->
 <div class="container">
     <div class="contact">
-        <h2>Get in touch.</h2>
-        <h3><a href="javascript:void(0);" class="light">hello@ambitious.guide</a>, or via <a href="https://twitter.com/ambguide" target="_blank" class="light">Twitter</a>.</h3>
+        <h2>Join us.</h2>
+        <a href="/join" class="join-button dark" target="_blank">Apply to join Ambitious</a>
+        <h3>Get in touch at <a href="javascript:void(0);" class="light">hello@ambitious.guide</a>, or via <a href="https://twitter.com/ambguide" target="_blank" class="light">Twitter</a>.</h3>
     </div>
 </div>
