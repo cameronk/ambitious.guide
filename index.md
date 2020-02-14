@@ -2,21 +2,26 @@
 layout: default
 ---
 
-<header>
+<!-- <header>
     <a href="/join" class="join-button" target="_blank">Join us</a>
-</header>
+</header> -->
 
 <div class="intro-header">
-    <h1 class="heading-jumbo">Ambitious</h1>
-    <h4 class="subheading">Community and resources for young people in science and tech.</h4>
+    <!-- <div class="container"> -->
+        <h1 class="heading-jumbo">Ambitious</h1>
+        <h4 class="subheading">Community and resources for young people in science and tech.</h4>
+    <!-- </div> -->
 </div>
 
 <!-- <div class="pull-up"> -->
 <!-- Header -->
 <div class="container">
     <div class="motto-wrap">
+        <div class="relaunch">
+            <h3><span>🚀 Ambitious 2.0 is here. <a href="#">Find out what's new &rarr;</a></span></h3>
+        </div>
         <h2>We're a community of engineers, researchers, and builders interested in science and tech.</h2>
-        <p>Ambitious is creating a space for exceptional young people to collaborate on projects, have conversations, make friends, and <em>build a competitive advantage</em>. We believe investing in these people early will have compounding returns over the long run, pushing science and technology forward.</p>
+        <p>Ambitious is creating a space for exceptional young people to collaborate on projects, have conversations, make friends, and <span>build a competitive advantage</span>. We believe investing in these people early will have compounding returns over the long run, pushing science and technology forward.</p>
     </div>
 </div>
 
@@ -47,7 +52,7 @@ layout: default
 {% assign speakers = site.speakers | sort: 'date' | reverse %}
 <div class="container">
     <div class="weekly-brew">
-        <div class="up-next">
+        <!-- <div class="up-next">
             <div class="col-4">
                 {% if speakers.first.image contains '://' %}
                     <img src="{{ speakers.first.image }}" />
@@ -60,9 +65,10 @@ layout: default
                 <h2 class="speaker-name">{{ speakers.first.name }}</h2>
                 <div class="light">{{ speakers.first }}</div>
             </div>
-        </div>
+        </div> -->
         <div class="past-speakers-wrapper">
-            <div class="label">PAST SPEAKERS</div>
+            <!-- <div class="label">PAST SPEAKERS</div> -->
+            <h2>Past speakers</h2>
             <div class="speakers">
                 {% for speaker in speakers %}
                     {% if speaker != speakers.first %}
@@ -86,8 +92,7 @@ layout: default
 <!-- Contact -->
 <div class="container">
     <div class="contact">
-        <h2>Join us.</h2>
-        <a href="/join" class="join-button dark" target="_blank">Apply to join Ambitious</a>
-        <h3>Get in touch at <a href="javascript:void(0);" class="light">hello@ambitious.guide</a>, or via <a href="https://twitter.com/ambguide" target="_blank" class="light">Twitter</a>.</h3>
+        <h2>Interested? <a href="#">Apply to join us &rarr;</a></h2>
+        <h3>Get in touch at <a href="javascript:void(0);">hello@ambitious.guide</a>, or via <a href="https://twitter.com/ambguide" target="_blank">Twitter</a>.</h3>
     </div>
 </div>

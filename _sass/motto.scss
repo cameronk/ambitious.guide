@@ -17,5 +17,28 @@
         font-size: 17px;
         line-height: 30px;
         font-weight: 400;
+
+        // highlight
+        span {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 2px;
+        }
+    }
+
+    .relaunch {
+        opacity: 0.75;
+        margin-bottom: 30px;
+
+        // span matches width of text instead of full width
+        h3 span {
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        @media screen and (max-width: 600px) {
+            h3 {
+                font-size: 14px;
+            }
+        }
     }
 }

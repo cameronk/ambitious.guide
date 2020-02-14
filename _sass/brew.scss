@@ -3,7 +3,7 @@
     margin-bottom: 2*$gutter;
 
     img {
-        border-radius: 6px;
+        border-radius: 12px;
     }
 
     .up-next {
@@ -50,6 +50,8 @@
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
 
             .item {
 
@@ -63,6 +65,7 @@
                     height: 150px;
                     margin-bottom: 5px;
                     border-radius: 4px;
+                    box-shadow: 0 2px 6px 2px rgba(0,0,0,0.15)
                 }
                 div {
                     opacity: 0.8;

@@ -1,5 +1,12 @@
+/**
+ * Variables 
+ */
 $gutter: 40px;
+$base-purple: #4E37C7;
 
+/**
+ * Base 
+ */
 body {
     font-family: "Merriweather", serif;
     padding: 0;
@@ -12,8 +19,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Merriweather", serif !important;
     font-weight: 400;
-    // text-align: left;
-    // text-align: left;
 }
 h1 {
     font-size: 64px;
@@ -25,13 +30,16 @@ h2 {
 }
 
 a {
-    color: #39229d;
+    color: $base-purple;
     text-decoration: none;
 }
 a:visited {
-    color: #39229d;
+    color: $base-purple;
 }
 
+/**
+ * Helpers 
+ */
 .light {
     opacity: 0.6;
 }
@@ -47,23 +55,19 @@ a:visited {
 }
 .label {
     opacity: 0.6;
-    color: #39229d;
+    color: $base-purple;
     text-align: left;
-    font-size: 12px;
+    font-size: 12px; /* base size is 16px */
     line-height: 20px;
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
-// .pull-up {
-//     background: #fff;
-//     margin-top: -20px;
-//     border-top-left-radius: 20px;
-//     border-top-right-radius: 20px;
-// }
-//
-
+/**
+ * Page header
+ * (alignment for the button at the top) 
+ */
 header {
     position: absolute;
     top: 10px;
@@ -87,24 +91,29 @@ a.join-button {
 
     &:hover {
         background-color: #fff;
-        color: rgba(57, 34, 157, 0.8) !important;
+        // color: rgba(57, 34, 157, 0.8) !important;
         // text-decoration: underline;
     }
 
     &.dark {
-        border-color: rgba(57, 34, 157, 0.8);
-        color: rgba(57, 34, 157, 0.8) !important;
+        // border-color: rgba(57, 34, 157, 0.8);
+        // color: rgba(57, 34, 157, 0.8) !important;
     }
     &.dark:hover {
-        background-color: rgba(57, 34, 157, 0.8);
+        // background-color: rgba(57, 34, 157, 0.8);
         color: #fff !important;
     }
 }
 
+
+/**
+ * Footer 
+ */
 footer {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-image: linear-gradient(120deg, #04066c, #a052fb);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    // background-image: linear-gradient(120deg, #04066c, #a052fb);
+    background-color: $base-purple;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -112,11 +121,13 @@ footer {
 
     div {
         text-align: center;
-        color: #f3f3f3;
+        color: #fff;
     }
 }
 
-/* index */
+/**
+ * Imports 
+ */
 @import "header";
 @import "motto";
 @import "offer";
