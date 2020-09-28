@@ -17,9 +17,9 @@ layout: default
 <!-- Header -->
 <div class="container">
     <div class="motto-wrap">
-        <div class="relaunch">
+        <!--<div class="relaunch">
             <h3><span>🚀 Ambitious 2.0 is here. <a href="#">Find out what's new &rarr;</a></span></h3>
-        </div>
+        </div>-->
         <h2>We're a community of engineers, researchers, and builders interested in science and tech.</h2>
         <p>Ambitious is creating a space for exceptional young people to collaborate on projects, have conversations, make friends, and <span>build a competitive advantage</span>. We believe investing in these people early will have compounding returns over the long run, pushing science and technology forward.</p>
     </div>
@@ -92,7 +92,7 @@ layout: default
 <!-- Contact -->
 <div class="container">
     <div class="contact">
-        <h2>Interested? <a href="#">Apply to join us &rarr;</a></h2>
-        <h3>Get in touch at <a href="javascript:void(0);">hello@ambitious.guide</a>, or via <a href="https://twitter.com/ambguide" target="_blank">Twitter</a>.</h3>
+        <h2>Interested? <a href="https://twitter.com/messages/compose?recipient_id=708807667335241729&text=Interested+in+ambitious.guide!">Apply to join us &rarr;</a></h2>
+        <h3>Get in touch at <a href="mailto:hello@ambitious.guide">hello@ambitious.guide</a>, or via <a href="https://twitter.com/c3kel" target="_blank">Twitter</a>.</h3>
     </div>
 </div>
